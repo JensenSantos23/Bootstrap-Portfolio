@@ -6,65 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Portfolio</title>
 </head>
-<body>
 
-    <header>
-        <div class="wrapper">
-            <div class="logo">
-                <h1>Your Name</h1>
-            </div>    
-            <nav class="nav">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="#" class="active withDivider">Portfolio</a></li>
-                    <li><a href="contact.html" class="withDivider">Contact</a></li>
+<body>
+    <header class= "bg-light">
+        <nav class="container navbar navbar-expand-lg b1-0 br-0 bb-1 p-0">
+            <a class="navbar-brand text-white font-weight-bold text-center bg-secondary ml-0 pt-4 pl-3 pr-3 mh-100 " href="index.html">Your Name</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto font-weight-bold">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link border-left" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link border-left" href="contact.html">Contact</a>
+                    </li>
                 </ul>
-            </nav>
-        </div>
-    </header>
-    
-    <section class="content">
-        <div class ="wrapper main">
-            <div id="portfolio">
-                <h2>
-                    Portfolio
-                </h2>
-                <div class="gallery">
-                    <figure class="imageContainer hover-outline">
-                        <img class="portfolioIMG" src="assets/images/nature-q-c-640-480-4.jpg" alt="Hangman Photo"> 
-                        <p>Hangman</p>
-                    </figure>
-                    <figure class="imageContainer hover-outline">
-                        <img class="portfolioIMG" src="assets/images/abstract-q-c-640-480-10.jpg" alt="RPG Game">
-                        <p>RPG Game</p>
-                    </figure>
-                    <figure class="imageContainer hover-outline">
-                        <img class="portfolioIMG" src="assets/images/abstract-q-c-640-480-4.jpg" alt="Trivia Game">   
-                        <p>Trivia Game</p>
-                    </figure>
-                    <figure class="imageContainer hover-outline">
-                        <img class="portfolioIMG " src="assets/images/technics-q-c-640-480-2.jpg" alt="Rutgers Info Widget"> 
-                        <p>Rutgers Info Widget</p>
-                    </figure>
-                    <figure class="imageContainer hover-outline">
-                        <img class="portfolioIMG" src="assets/images/transport-q-c-640-480-10.jpg" alt="Rock Paper Scissors">
-                        <p>Rock Paper Scissors<p>
-                    </figure>
-                </div>
-                <br class="clearfix">
             </div>
-        </div>
-    </section>
-    
-    <div class="spacer"></div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section></section>
+            <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div id="portfolio">    
+                            <h2>Portfolio</h2>
+                                <div class="gallery">
+        
+                                    <figure class="imageContainer hover-outline">
+                                        <img src="./assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess"> 
+                                        <p>Word Guess</p>
+                                    </figure>
+                                    <figure class="imageContainer hover-outline">
+                                        <img src="./assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+                                        <p>RPG Game</p>
+                                    </figure>
+                                    <figure class="imageContainer hover-outline">
+                                        <img src="./assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">   
+                                        <p>Trivia Game</p>
+                                    </figure>
+                                    <figure class="imageContainer hover-outline">
+                                        <img src="./assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget"> 
+                                        <p>Rutgers Info Widget</p>
+                                    </figure>
+                                    <figure class="imageContainer hover-outline">
+                                        <img src="./assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+                                        <p>Rock Paper Scissors<p>
+                                    </figure>   
+                                         
+                                </div>                                        
+                            </div>        
+                     
+                        </div>
+                    </div>
+                </div>   
+            </div>                    
+        
+        
+        </section>             
+      
     <footer>
         <div class="wrapper">
             &copy; Copyright 2018
         </div>
     </footer>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
 </body>
 </html>
